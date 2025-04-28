@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5555:5432"
+
+  etl:
+    build: .
+    depends_on:
+      - db
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python main.py
+
+  streamlit:
+    build: .
+    depends_on:
+      - db
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+
+volumes:
+  pgdata:
