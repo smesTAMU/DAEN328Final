@@ -68,7 +68,7 @@ Example `.env`:
 
 2. Navigate into the project directory:
     ```bash
-    cd chicago-food-inspection-pipeline
+    cd DAEN328FINAL
     ```
 
 3. Build and start all services using Docker Compose:
