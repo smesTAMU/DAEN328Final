@@ -149,6 +149,8 @@ Zain Bharde:
 - set up postgres db
 - Contributed to slide deck for presentation
 - Created README
+- 
+
 Avi Pasupuleti:
   -  Created the interactive Streamlit dashboard w/visualizations 
   -  Filtered, standardized, and normalized data in the preprocessing stage
