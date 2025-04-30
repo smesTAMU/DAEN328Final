@@ -145,11 +145,8 @@ SELECT * FROM inspections LIMIT 10;
 
 ## Contributors
 Zain Bharde:
-- Dockerized the ETL pipeline and Streamlit dashboard
-- set up postgres db
-- Contributed to slide deck for presentation
+- Dockerized the ETL pipeline, Streamlit dashboard, and Postgres database
 - Created README
-- 
 
 Avi Pasupuleti:
   -  Created the interactive Streamlit dashboard w/visualizations 
