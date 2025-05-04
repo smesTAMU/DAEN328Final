@@ -151,3 +151,8 @@ Zain Bharde:
 Avi Pasupuleti:
   -  Created the interactive Streamlit dashboard w/visualizations 
   -  Filtered, standardized, and normalized data in the preprocessing stage
+Michael Edwards-Sarver
+  -  Planning Document
+  -  Retrieved data from API with batching
+  -  Created Github Repo
+
