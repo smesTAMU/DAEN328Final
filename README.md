@@ -157,3 +157,6 @@ Michael Edwards-Sarver:
   -  Retrieved data from API with batching
   -  Created Github Repo
 
+Bob Cao:
+  -  Finished preprocessing procedures
+  -  Created presentation
